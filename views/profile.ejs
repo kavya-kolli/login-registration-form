@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }body{
+            background: url(https://i.pinimg.com/originals/11/2d/6d/112d6d5beca30fd1672611614e1eb48b.jpg) no-repeat;
+            background-size: cover;
+
+        }nav{
+            background-color: rgb(227, 188, 232);
+            height: 50px;
+            box-shadow: 0 0 5px rgb(243, 204, 204);
+            border-radius: 15px;
+        } .navbar-brand{
+          font-size: 30px;
+          margin-left: 100px;
+          padding:20px;
+         text-decoration: none;
+          color: blueviolet;
+
+        }.navbar-brand:hover{
+            cursor: pointer;
+            color: rgb(71, 123, 158);
+            text-shadow: 0 0 5px aqua;
+        }
+        .d-flex{
+            float: right;
+            font-size: 20px;
+            margin-right: 20px;
+        }.btn-btn-outline-success{
+            font-size: 15px;
+            background-color: blueviolet;
+            color: white;
+            
+        }.btn-btn-outline-success:hover{
+            cursor: pointer;
+            background-color: deepskyblue;
+            border-style: none;
+        }h1{
+            color: rgb(243, 202, 238);
+            text-shadow: 0 0 5px rgb(227, 170, 170);
+        }
+    </style>
+</head>
+<body>
+    <h1>Flowers shop</h1>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/logout">Logout</a>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="search" aria-label="search">
+                <button class="btn-btn-outline-success" type="submit">search</button>
+            </form>
+        </div>
+    </nav>
+    <h1 style="margin-top: 50px;">you have successfully Logged In</h1>
+</body>
+</html>
